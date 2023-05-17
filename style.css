@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Kavoon&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    font-family: 'Roboto', sans-serif;
+    width: 366px;
+    height: 477px;
+    background: #c4c4c4;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.box h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.box p{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.perfil{
+    position: relative;
+    top:-40px ;
+}
+
+
+.box a button{
+    width: 176px;
+    height:48px;
+    background-color: #5C85D4;
+    border-radius: 30px ;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;  
+}
+
+.box a button:hover{
+    background-color:  rgb(1, 26, 165) ;
+}
